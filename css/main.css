@@ -86,6 +86,255 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/**************** Base Header--Footer styles *****************/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/***** Header Styles *****/
+
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+
+}
+
+/***** Footer Styles *****/
+
+footer {
+
+}
+
+footer .content-wrapper {
+  flex-flow: row wrap;
+}
+
+.footer-content {
+  flex-flow: row wrap;
+}
+
+.contact {
+
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+}
+/**************** Mobile Styles--Homepage *****************/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+section .content-wrapper {
+  flex-flow: row wrap;
+}
+
+
+/***** Form Styles *****/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+  flex-form: row wrap;
+}
+
+aside .form {
+  flex-form: row wrap;
+}
+
+
+/***** Features Styles *****/
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+section .content-wrapper {
+
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/***** Reviews Styles *****/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+section .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+
+/*=========================================================/
+/**************** Mobile Styles--FAQ Page ****************/
+/*========================================================*/
+
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+
+}
+
+
+/*========================================================*/
+/**************** Mobile Styles--About Page **************/
+/*========================================================*/
+
+
+
+/***** Mission Section *****/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+/***** Map Section *****/
+
+section .map {
+
+}
+
+
+/***** Contact Section *****/
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section .content-wrapper {
+
+}
+
+address .contact-content {
+}
+
+
+/**************** Tablet Styles--Homepage ***************/
+
+
+
+
+/**************** Desktop Styles--Homepage **************/
+
+
+
+
+
+/**************** Tablet Styles--FAQ Page ****************/
+
+
+
+
+/**************** Desktop Styles--FAQ Page ***************/
+
+
+
+
+/*************** Tablet Styles--About Page ***************/
+
+
+
+
+/*************** Desktop Styles--About Page **************/
+
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +509,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

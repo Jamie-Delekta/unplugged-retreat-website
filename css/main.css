@@ -365,33 +365,9 @@ address .contact-content {
   margin: 0;
 }
 
-/**************** Tablet Styles--Homepage ***************/
 
 
 
-
-/**************** Desktop Styles--Homepage **************/
-
-
-
-
-
-/**************** Tablet Styles--FAQ Page ****************/
-
-
-
-
-/**************** Desktop Styles--FAQ Page ***************/
-
-
-
-
-/*************** Tablet Styles--About Page ***************/
-
-
-
-
-/*************** Desktop Styles--About Page **************/
 
 
 
@@ -483,15 +459,102 @@ address .contact-content {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px){
+  /* Tablet styles here */
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    padding: 30px 20px;
+  }
+
+  header .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  header-divider {
+  display: none;
+}
+  aside .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+  }
+
+
+  .features article {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+  .reviews article {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 175px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  /* About Page Tablet Media Queries */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .mission-content p {
+    width: 85%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 75%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  /* FAQ Page Tablet Media Queries */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+@media only screen and (min-width: 1200px){
+  /* Desktop styles here */
 }
 
 /* ==========================================================================

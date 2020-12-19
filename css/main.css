@@ -135,6 +135,14 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -150,6 +158,7 @@ footer {
   flex-flow: row wrap;
 }
 
+
 /***** Header Styles *****/
 
 header {
@@ -157,13 +166,21 @@ header {
   background-color: #202322;
 }
 
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
 
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 .header-divider {
@@ -240,16 +257,27 @@ footer .copyright {
 }
 /**************** Mobile Styles--Homepage *****************/
 
-.hero-area {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+ .hero-area {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   background: url('../img/hero.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 500px;
 }
 
-section .content-wrapper {
+  .hero-area .content-wrapper {
+
 }
 
 .hero-area h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  margin: 0;
   color: #e2e3ed;
   font-size: 2.25em;
   font-weight: 500;
@@ -320,6 +348,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/picnic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features .content-wrapper {
@@ -363,7 +395,14 @@ section .content-wrapper {
 }
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 30px;
+  line-height: 1;
+}
+
+.reviews figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews article {
@@ -574,11 +613,16 @@ address .contact-content {
 
   header .content-wrapper {
     justify-content: space-between;
+    flex-flow: row nowrap;
     width: 100%;
   }
 
+  header figure {
+    width:50%;
+  }
+
   header nav {
-    width: 25%;
+    width: 35%;
   }
 
   header nav ul {
@@ -589,9 +633,23 @@ address .contact-content {
   display: none;
 }
 
+  .hero-area {
+    height: 600px;
+  }
+
+  .hero-area .content-wrapper {
+
+}
+
+
   .hero-area h1 {
   font-size: 3em;
   line-height: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  margin: 0;
 }
 
   aside .content-wrapper {
@@ -636,10 +694,19 @@ address .contact-content {
     margin: 0 30px;
   }
 
+  .reviews .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+
   .reviews h2 {
     font-size: 2.25em;
     line-height: 1.3;
     width: 85%;
+    margin: 15px 0;
   }
 
   .reviews article {
@@ -647,15 +714,31 @@ address .contact-content {
     justify-content: space-between;
   }
 
+  .reviews article figure {
+    width: 48%;
+  }
+
+  .reviews article figure img {
+    width: 100%;
+  }
+
   .reviews article div {
-    width: 49%;
+    width: 48%;
   }
 
   .reviews h3 {
     width: 75%;
     margin: 0;
+    font-size: 1.5em;
+    line-height: 1.25;
   }
 
+  .reviews article p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -761,6 +844,12 @@ address .contact-content {
     flex-flow: row nowrap;
   }
 
+  header figure {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+  }
+
   .header-divider {
     display: none;
   }
@@ -777,11 +866,20 @@ address .contact-content {
     flex-flow: row nowrap;
   }
 
+  .hero-area .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    margin: 0;
+  }
+
   .hero-area h1 {
     font-size: 3.75em;
     line-height: 1;
     width: 85%;
     font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
   }
 
   aside .content-wrapper {

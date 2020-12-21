@@ -793,6 +793,11 @@ address .contact-content {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45%;
+  }
+
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -988,6 +993,10 @@ address .contact-content {
     flex-basis: 45%;
     font-size: 1.125em;
     line-height: 1.3;
+  }
+
+  .map figure {
+    padding-bottom: 38%;
   }
 
   .contact-section .content-wrapper h2 {

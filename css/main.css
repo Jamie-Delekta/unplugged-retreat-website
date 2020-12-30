@@ -196,7 +196,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 75%;
 }
 
 header nav ul {
@@ -602,6 +602,10 @@ input[type=button] {
     justify-content: space-between;
 }
 
+  header nav ul a {
+    font-size: 1em;
+  }
+
   .header-divider {
     display: none;
 }
@@ -825,6 +829,9 @@ input[type=button] {
     width: 20%;
   }
 
+  header nav ul a {
+    font-size: 1.125em;
+  }
 
 /* Hero-area */
 
